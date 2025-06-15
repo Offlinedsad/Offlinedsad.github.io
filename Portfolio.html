@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>offlinedsad - 3D Artist & VRChat Creator</title>
+  <script src="https://cdn.tailwindcss.com"></script> 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .gradient-text {
+      background: linear-gradient(to right, #ec4899, #a855f7); 
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+  <!-- Navigation -->
+  <nav class="flex justify-between items-center px-6 py-4 border-b border-pink-500/20 shadow-lg backdrop-blur-sm sticky top-0 z-50 bg-black/70">
+    <h1 class="text-2xl font-bold gradient-text">offlinedsad</h1>
+    <ul class="hidden md:flex space-x-6 text-sm uppercase tracking-wider">
+      <li><a href="#about" class="hover:text-pink-400 transition">About</a></li>
+      <li><a href="#portfolio" class="hover:text-pink-400 transition">Portfolio</a></li>
+      <li><a href="#contact" class="hover:text-pink-400 transition">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="px-6 pt-16 pb-24 flex flex-col md:flex-row items-center gap-12 max-w-6xl mx-auto">
+    <div class="md:w-1/2">
+      <img src="https://placehold.co/400x400/e21ce8/ffffff?text=3D+Artist" alt="offlinedsad" class="rounded-xl shadow-2xl w-full object-cover aspect-square" />
+    </div>
+    <div class="md:w-1/2">
+      <h2 class="text-4xl md:text-5xl font-extrabold mb-4">offlinedsad</h2>
+      <p class="text-pink-400 text-xl mb-4">3D Modeler | VRChat DJ | VRChat Dancer | Event Coordinator</p>
+      <p class="text-gray-300 leading-relaxed">
+        I create assets for Unity and Blender, mostly focused on VRChat worlds and avatars. I used to be a dancer in VRChat, and while I'm taking a break for now, I'm still available for event coordination or help with organizing dance teams in-game.
+      </p>
+      <p class="text-gray-300 leading-relaxed mt-4">
+        Currently coordinating for Tubes' dancer team, and open to helping out with events or creative direction in VRChat. Thanks for stopping by! 💃
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="about" class="py-16 px-6 bg-black/30">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-3xl font-semibold mb-6 text-center">Skills & Expertise</h3>
+      <div class="flex flex-wrap gap-3 justify-center">
+        <span class="bg-pink-500/20 border border-pink-500/40 rounded-full px-4 py-2 text-sm hover:bg-pink-500/30 transition duration-300">Blender</span>
+        <span class="bg-pink-500/20 border border-pink-500/40 rounded-full px-4 py-2 text-sm hover:bg-pink-500/30 transition duration-300">Unity</span>
+        <span class="bg-pink-500/20 border border-pink-500/40 rounded-full px-4 py-2 text-sm hover:bg-pink-500/30 transition duration-300">3D Modeling</span>
+        <span class="bg-pink-500/20 border border-pink-500/40 rounded-full px-4 py-2 text-sm hover:bg-pink-500/30 transition duration-300">Texturing</span>
+        <span class="bg-pink-500/20 border border-pink-500/40 rounded-full px-4 py-2 text-sm hover:bg-pink-500/30 transition duration-300">VRChat Worlds</span>
+        <span class="bg-pink-500/20 border border-pink-500/40 rounded-full px-4 py-2 text-sm hover:bg-pink-500/30 transition duration-300">Event Coordination</span>
+        <span class="bg-pink-500/20 border border-pink-500/40 rounded-full px-4 py-2 text-sm hover:bg-pink-500/30 transition duration-300">DJ Mixing</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Grid -->
+  <section id="portfolio" class="py-16 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-3xl font-semibold mb-10 text-center">Featured Projects</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="group overflow-hidden rounded-xl bg-gray-800/50 border border-gray-700 hover:border-pink-500/50 transition-all duration-300 transform hover:-translate-y-2 shadow-lg">
+          <img src="https://placehold.co/600x400/1e1e1e/e21ce8?text=Cyberpunk+City" alt="Cyberpunk City Asset Pack" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h4 class="text-xl font-bold mb-2">Cyberpunk City Asset Pack</h4>
+            <p class="text-gray-300">Blender + Unity asset pack designed for VRChat world building.</p>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-xl bg-gray-800/50 border border-gray-700 hover:border-pink-500/50 transition-all duration-300 transform hover:-translate-y-2 shadow-lg">
+          <img src="https://placehold.co/600x400/1e1e1e/e21ce8?text=Avatar+Outfit" alt="VRChat Avatar Outfit" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h4 class="text-xl font-bold mb-2">VRChat Avatar Outfit</h4>
+            <p class="text-gray-300">Custom avatar clothing set with high-res textures.</p>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-xl bg-gray-800/50 border border-gray-700 hover:border-pink-500/50 transition-all duration-300 transform hover:-translate-y-2 shadow-lg">
+          <img src="https://placehold.co/600x400/1e1e1e/e21ce8?text=Dance+Club" alt="Neon Dance Club Environment" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h4 class="text-xl font-bold mb-2">Neon Dance Club Environment</h4>
+            <p class="text-gray-300">Fully animated environment built in Unity for VR events.</p>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-xl bg-gray-800/50 border border-gray-700 hover:border-pink-500/50 transition-all duration-300 transform hover:-translate-y-2 shadow-lg">
+          <img src="https://placehold.co/600x400/1e1e1e/e21ce8?text=Textures" alt="Texture Set: Sci-Fi Panels" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h4 class="text-xl font-bold mb-2">Texture Set: Sci-Fi Panels</h4>
+            <p class="text-gray-300">PBR texture maps for futuristic metal panels and walls.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Socials Section -->
+  <section id="contact" class="py-16 px-6 bg-black/30">
+    <div class="max-w-3xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-8">Connect With Me</h3>
+      <p class="text-gray-300 mb-6">You can find me on the following platforms:</p>
+      <div class="flex flex-col items-center gap-4 text-lg">
+        <a href="https://discord.com/users/offlinedsad" target="_blank" rel="noopener noreferrer" class="hover:text-pink-400 transition">
+          Discord: <span class="font-medium">offlinedsad</span>
+        </a>
+        <a href="https://www.youtube.com/channel/UCtcNkfrDznk8W0Y8PdZvVmg" target="_blank" rel="noopener noreferrer" class="hover:text-pink-400 transition">
+          YouTube: <span class="font-medium">Offlined Sad</span>
+        </a>
+        <a href="https://x.com/OfflinedSad" target="_blank" rel="noopener noreferrer" class="hover:text-pink-400 transition">
+          Twitter/X: <span class="font-medium">@OfflinedSad</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 text-center text-sm text-gray-500 border-t border-gray-800">
+    © <span id="year"></span> offlinedsad. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
